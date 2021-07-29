@@ -81,4 +81,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit: ${{ github.sha }}
           tag: ${{ steps.version.outputs.content }}
-          prerelease: true
+#          prerelease: true
